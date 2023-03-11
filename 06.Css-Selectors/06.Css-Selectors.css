@@ -1,0 +1,130 @@
+#selectors {
+    color: chartreuse;
+    text-align: center;
+}
+
+#register {
+    text-align: center;
+}
+
+#first {
+   color: blue; 
+}
+
+#last {
+    color: blueviolet;
+}
+
+#email {
+    color: aquamarine;
+}
+
+#password {
+    color: brown;
+}
+
+#sec1 input:focus {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) ;
+}
+
+#sec1 input:focus::placeholder {
+    color: red;
+}
+
+#sec1  {
+
+}
+
+#sec1 {
+    display: flex;
+    height: 90vh;
+    background-color: rgb(133, 137, 133);
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1 button {
+    background-color: rgba(0, 0, 255, 0.358);
+    color: rgba(255, 0, 0, 0.773);
+}
+
+#sec1 button:hover {
+    background-color: rgba(0, 255, 30, 0.553);
+    color: rgba(255, 255, 0, 0.773);
+    transition: all 0.5s;
+}
+
+#sec1 input[type="radio"] {
+    accent-color: red;
+}
+
+#sec1 input[type="checkbox"] {
+    accent-color: red;
+}
+
+#sec1 img {
+    margin-left: 6%;
+}
+
+
+
+
+#sec2 textarea{
+    resize: none;
+}
+
+#sec2 {
+    display: flex;
+    height: 90vh;
+    background-color:bisque;
+    justify-content: center;
+    align-items: center;
+}
+
+#choose {
+    color:blueviolet ;
+}
+
+#age {
+    color:chocolate ;
+}
+
+#sec2 button {
+    background-color: rgba(0, 255, 72, 0.358);
+    color: rgb(0, 34, 255);
+}
+
+#sec2 button:hover {
+    background-color: rgba(255, 0, 34, 0.553);
+    color: rgba(0, 255, 85, 0.773);
+    transition: all 0.5s;
+}
+
+#sec2 img {
+    margin-right: 5%;
+    margin-left: -70px;
+}
+
+
+
+#sec3 {
+    display: flex;
+    height: 90vh;
+    background-color: rgb(133, 137, 133);
+    justify-content: center;
+    align-items: center;
+}
+
+#sec3 form ul {
+    color: rgb(2, 103, 27);
+}
+
+#sec3 form ul p {
+    color: rgb(143, 14, 14);
+}
+
+ol + p {
+    color: blue;
+}
+

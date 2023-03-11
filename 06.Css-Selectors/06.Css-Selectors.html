@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./06.Css-Selectors.css">
+</head>
+<body>
+    <h1 id="selectors">Css Selectors</h1>
+
+    <section id="sec1">
+        <form action="">
+            <h2 id="register">Register Form</h2>
+            <br>
+            <label id="first" for="">First name:</label>
+            <br>
+            <input id="firsti" type="text" name="first" size="40"  required placeholder="Enter a name...">
+            <br><br>
+            <label id="last" for="">Last name:</label>
+            <br>
+            <input id="lasti" type="text" name="last" size="40" required placeholder="Last a surname...">
+            <br><br>
+            <label id="email" for="email">Email:</label>
+            <br>
+            <input id="emaili" type="email" name="email" size="40" required placeholder="Enter an email...">
+            <br><br>
+            <label id="password" for="password">Password:</label>
+            <br>
+            <input id="passwordi" type="password" name="password" size="40" required placeholder="Enter a password...">
+            <br><br>
+            <input type="checkbox" id="accept" required>
+            <label for="accept">Accept all requirments</label>
+            <br><br>
+            <input type="radio" name="tso" id="teacher" required>
+            <label for="teacher">Teacher</label>
+            <input type="radio" name="tso" id="student" required>
+            <label for="student">Student</label>
+            <input type="radio" name="tso" id="other" required>
+            <label for="other">Other</label>
+            <br><br>
+            <button type="submit">Sign in</button>
+            <br><br>
+            <p>Register maybe later: <a href="#sec2">Skip</a> </p>
+        </form>
+        
+        <img src="./rocket.png" alt="rocket" width="624" height="428" id="">
+    </section>
+
+    <section id="sec2">
+        
+        <img src="./rocket.png" alt="rocket" width="624" height="428" id="">
+
+        <form action="">
+            <h2>User Info</h2>
+            <br>
+            <h3>Who are u?</h3>
+            <textarea name="" id="" cols="60" rows="10" required placeholder="Add some info about yourself..."></textarea>
+            <br><br>
+            <input type="file" required>
+            <br><br>
+            <label for="" id="choose">Choose date:</label>
+            <input type="date" required>
+            <br><br>
+            <label for="" id="age">Age:</label>
+            <input type="number" required placeholder="your age...">
+            <br><br>
+            <button type="submit">Save</button>
+            <br><br>
+            <p>Maybe later): <a href="#sec3">Skip</a></p>
+            <p>Go back and sign in: <a href="#sec1">Sign in</a></p>
+        </form>
+    </section>
+
+    <section id="sec3">
+        <form action="">
+           <h1>Change tags' color without class name and id.</h1>
+        <ul>
+            <p>CITIES</p>
+            <li>Shusha</li>
+            <li>Qusar</li>
+            <li>Baku</li>
+        </ul>
+        <ol>
+            <li>Ismayili</li>
+            <li>Shamaki</li>
+            <li>Sirvan</li>
+            <li>Qazag</li>
+        </ol>
+        <p>Lorem1</p>
+        <p>Lorem2</p>
+        <p><a href="#sec1">Go back </a>to first section!</p> 
+        </form>
+    </section>
+
+</body>
+</html>
