@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#h11 {
+    text-align: center;
+}
+
+#sec1 {
+    background-image: url(./tebiet-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+p {
+    padding-left: 30px;
+}
+
+#h32 {
+    padding-left: 30px;
+}
+
+#sec2 {
+    background-image: url(./minyonlar.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#sec3 {
+    background-image: url(./ulduz.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#ss45 {
+    display: flex;
+}

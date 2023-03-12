@@ -1,0 +1,47 @@
+#salam {
+    background-image: url(./tablo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1 {
+    width: 42%;
+}
+
+#form1 {
+    background-color: rgba(240, 248, 255, 0.282);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+}
+
+#sec1 button {
+    color: rgb(235, 0, 0);
+    background-color: rgba(240, 248, 255, 0);
+    padding: 5px 40px;
+}
+
+#sec1 button:hover {
+    background-color:bisque;
+    color: rgba(4, 0, 255, 0.96);
+    transition: all 0.5s;
+}
+
+#form1 button {
+    color: rgb(235, 0, 0);
+    background-color: rgba(240, 248, 255, 0);
+    padding: 5px 50px;
+}
+
+#form1 button:hover {
+    background-color:bisque;
+    color: rgba(4, 0, 255, 0.96);
+    transition: all 0.5s;
+}
