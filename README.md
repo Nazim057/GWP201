@@ -6,6 +6,8 @@
 
 05-FirstHtmlFullSite: https://vermillion-froyo-2d081b.netlify.app/
 
+06.Css-Selectors: https://spiffy-sable-126b26.netlify.app/
+
 09.Css-Grid-Media: https://candid-vacherin-0e8f80.netlify.app/
 
 
