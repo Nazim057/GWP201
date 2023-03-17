@@ -12,6 +12,6 @@
 
 08.Css-box-model.html: https://superlative-unicorn-31e793.netlify.app/
 
-09.Css-Grid-Media: https://candid-vacherin-0e8f80.netlify.app/
+09.Css-Grid-Media: https://dulcet-puppy-6615ac.netlify.app/
 
 
