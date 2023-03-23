@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* #688f37 */
+
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+#sec1 {
+    background-color: #f1f5f9;
+    padding: 20px 0;
+    display: flex; /* commet */
+}
+
+.div {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* #sec1 div .sec1-div {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */       /* commet */
+
+
+/* commet */
+.sec1-div-div {
+    margin: 0 10px;
+}
+
+#sec1 div .sec1-div {
+    display: flex;
+}
+
+.div555 {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div66 {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* commet */
+
+
+.baslıq {
+    margin: 0 10px;
+    width: 300px;
+}
+
+.img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* font-family: 'Catamaran', sans-serif; */
+/* font-family: 'Grand Hotel', cursive; */
+
+#check {
+    font-family: 'Grand Hotel', cursive;
+    color: #688f37;
+}
+
+#our {
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.baslıq button {
+    padding: 3px 15px;
+    letter-spacing: 5px;
+    background-color: #688f37;
+    color: white;
+    font-weight: 700;
+}
+
+.sec1-div-div h4 {
+    letter-spacing: 4px;
+    margin: 25px 0 15px 0;
+    font-family: 'Grand Hotel', cursive;
+}
+
+.sec1-div-div .p1 {
+    font-family: 'Grand Hotel', cursive;
+    color: #688f37;
+}
+
+.baslıq .p {
+    margin: 25px 0 15px 0;
+    opacity: 0.5;
+}
+
+/* section 2 */
+
+#sec2 {
+    padding: 20px 0;
+}
+
+#sec2 .div {
+    display: flex;
+    justify-content: center;
+}
+
+.sec2-div {
+    height: 120vh;
+}
+
+.sec2-div h2 {
+    font-family: 'Grand Hotel', cursive;
+    color: #688f37;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 15px 0;
+}
+
+.sec2-div h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px 0;
+}
+
+.sec2-div-div .div1 {
+    width: 370px;
+    height: 550px;
+    background-color: #f1f5f9;
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+
+.sec2-div-div .div1 img{
+    width: 370px;
+    border-radius: 10px;
+}
+
+.sec2-div-div .div1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2-div-div {
+    display: flex;
+}
+
+.sec2-div-div .div1 div h4{
+    letter-spacing: 4px;
+    margin: 0 0 20px 0 ;
+}
+
+.sec2-div-div .div1 div p{
+    opacity: 0.5;
+}
+
+.sec2-div-div .div1 div button {
+    padding: 5px 10px;
+    letter-spacing: 3px;
+    background-color: #688f37;
+    color: white;
+    font-weight: 700;
+    margin: 50px 0;
+    border-radius: 10px;
+}
+
+.sec2-div-div .div1 i {
+    padding: 15px;
+    font-size: 34px;
+    color: #688f37;
+    background-color: #aee46b;
+    border: solid white;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: 150px;
+}
+
+
+
+@media (992px > width) {
+    .sec2-div-div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (992px > width >= 778px) {
+    #sec1 div .sec1-div {
+        height: 90vh;
+        flex-direction: column;
+    }
+    .div555, .div66 {
+        height: 40vh;
+    }
+}
+
+@media (778px > width) {
+    #sec1 div .sec1-div {
+        height: 200vh;
+        flex-direction: column;
+    }
+    .div555, .div66 {
+        height: 120vh;
+        flex-direction: column;
+    }
+}
