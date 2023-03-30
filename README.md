@@ -19,3 +19,9 @@
 11.ResponsiveTwoSection: https://loquacious-pithivier-979a45.netlify.app
 
 12.Responsvie-page: https://tiny-cascaron-d91965.netlify.app/
+
+galaxy: https://gentle-mandazi-0f8553.netlify.app
+
+galaxy2: https://tranquil-pegasus-ffa4b1.netlify.app
+
+13.homework: https://incandescent-shortbread-0a6747.netlify.app
