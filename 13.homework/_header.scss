@@ -1,0 +1,101 @@
+section {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url(bcg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    header {
+      nav {
+        ul {
+          height: 70px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          li {
+            // position: relative;
+            img {
+              width: 60px;
+            }
+            a {
+              color: white;
+              // padding: 10px 5px;
+              // padding: 420px 0px;
+
+
+              &::after {
+                content: "" ;
+                display: block;
+                border: 3px solid transparent;
+                width: 18px;
+              }
+
+
+              // position: absolute;
+              &:hover::after{
+                border: 3px solid #5D252B;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        h5 {
+          font-size: 19px;
+          color: #8a7162;
+          font-family: 'Playfair Display', serif;
+          text-decoration: line-through;
+        }
+        h1 {
+          font-size: 60px;
+          color: white;
+          padding: 20px 0;
+          font-family: 'Montserrat', sans-serif;
+        }
+        h3 {
+          font-size: 16px;
+          background-color: #6c5e56;
+          padding: 15px 25px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+
+          &:hover {
+            background-color: #A1948C;
+          }
+
+          a {
+            color: white;
+          }
+        }
+      }
+      .img {
+        width: 50%;
+        transition: all 1s;
+        img {
+          position: relative;
+          top: 250px;
+          left: 121px;
+        }
+        &:hover {
+          transform: translate(0, 200px);
+        }
+      }
+    }
+  }
+}
