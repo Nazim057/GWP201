@@ -20,8 +20,10 @@
 
 12.Responsvie-page: https://tiny-cascaron-d91965.netlify.app/
 
-galaxy: https://gentle-mandazi-0f8553.netlify.app
+13.1.transform-animation: https://gentle-mandazi-0f8553.netlify.app
 
-galaxy2: https://tranquil-pegasus-ffa4b1.netlify.app
+13.2.transform-animation: https://tranquil-pegasus-ffa4b1.netlify.app
 
-13.homework: https://incandescent-shortbread-0a6747.netlify.app
+14.sass-scss: https://brilliant-moxie-3dbbdb.netlify.app
+
+15.traditional-cuisine: https://incandescent-shortbread-0a6747.netlify.app
