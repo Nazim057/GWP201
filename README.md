@@ -26,4 +26,6 @@
 
 14.sass-scss: https://brilliant-moxie-3dbbdb.netlify.app
 
+14.SCSS-QuicqlyLandingPage: https://fancy-lokum-2006a7.netlify.app
+
 15.traditional-cuisine: https://incandescent-shortbread-0a6747.netlify.app
