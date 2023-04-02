@@ -1,0 +1,125 @@
+#footer-section {
+  background-color: #072125;
+  .container {
+    display: flex;
+    @media (width<767px) {
+      display: block;
+    }
+    .divv {
+      padding-top: 70px;
+      width: 100%;
+      @media (width<767px) {
+        display: flex;
+        justify-content: center;
+      }
+
+.divvv {
+ 
+
+
+      h3 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #ffffff;
+        padding-bottom: 20px;
+      }
+
+      label {
+        color: white;
+      }
+      input[type="checkbox"] {
+        accent-color: white;
+      }
+
+      #i2 {
+        margin-left: 68px;
+        margin-bottom: 20px;
+      }
+      #i4 {
+        margin-left: 30px;
+      }
+
+      .email {
+        margin-top: 30px;
+        display: flex;
+        .input {
+          background-color: white;
+          input {
+            padding: 10px 16px;
+            border: none;
+            width: 260px;
+          }
+        }
+        .button {
+          button {
+            padding: 10px 16px;
+            border: none;
+            background-color: #b8e4da;
+            a {
+              text-decoration: none;
+              color: #20484f;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+    .div {
+      width: 100%;
+      padding-top: 70px;
+      display: flex;
+      justify-content: space-around;
+
+      @media (width<576px) {
+        display: block;
+      }
+
+      .div1 {
+        @media (width<767px) {
+          display: flex;
+          justify-content: center;
+        }
+        ul {
+          h3 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 23px;
+            color: white;
+          }
+          li {
+            padding-top: 15px;
+            @media (width<767px) {
+              display: flex;
+              justify-content: center;
+            }
+            a {
+              text-decoration: none;
+              font-size: 16px;
+              line-height: 150%;
+              color: #dcf2ed;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hr {
+    width: 100%;
+    height: 0px;
+    opacity: 0.2;
+    border: 1px solid #dcf2ed;
+    margin-top: 30px;
+  }
+
+  h5 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+  }
+}

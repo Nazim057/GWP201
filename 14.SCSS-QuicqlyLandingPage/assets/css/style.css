@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+#header {
+  width: 100%;
+  background-color: #20484f;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+#header .container .box {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .container .box h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+#header .container .box nav {
+  display: flex;
+}
+@media (width < 767px) {
+  #header .container .box nav {
+    display: none;
+  }
+}
+#header .container .box nav li {
+  padding: 0 20px;
+}
+#header .container .box nav li a {
+  text-decoration: none;
+  color: white;
+}
+#header .container .box i {
+  display: none;
+}
+@media (width < 767px) {
+  #header .container .box i {
+    display: block;
+    font-size: 40px;
+  }
+}
+@media (width < 767px) {
+  #header .container .box .button {
+    display: none;
+  }
+}
+#header .container .box .button .but1 {
+  background-color: #b8e4da;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+#header .container .box .button .but1 a {
+  color: #20484f;
+  text-decoration: none;
+  font-size: 14px;
+}
+#header .container .box .button .but2 {
+  background-color: transparent;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+}
+#header .container .box .button .but2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#team-section {
+  background-color: #fafafa;
+}
+#team-section .container h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #072125;
+}
+#team-section .container .p1 {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #072125;
+}
+#team-section .container .boxes .box img {
+  width: 250px;
+  height: 250px;
+  border-radius: 12px;
+}
+#team-section .container .boxes .box h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #072125;
+}
+#team-section .container .boxes .box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #20484f;
+}
+#team-section .container .boxes .box .box1 i {
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.063);
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 15px;
+}
+
+#hero-section {
+  background-color: #fafafa;
+}
+#hero-section .container {
+  display: flex;
+  padding: 15vh 0 5vh 0;
+}
+@media (width < 767px) {
+  #hero-section .container {
+    display: block;
+  }
+}
+#hero-section .container .box1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#hero-section .container .box1 h5 {
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 18px;
+}
+#hero-section .container .box1 h1 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 64px;
+  position: relative;
+  z-index: 1;
+}
+#hero-section .container .box1 p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+#hero-section .container .box1 div {
+  margin-top: 40px;
+}
+#hero-section .container .box1 div img {
+  width: 360px;
+  position: relative;
+  top: -365px;
+  left: 250px;
+}
+@media (width < 768px) {
+  #hero-section .container .box1 div img {
+    display: none;
+  }
+}
+#hero-section .container .box1 div .but1 {
+  background-color: #20484f;
+  padding: 16px 36px 15px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+#hero-section .container .box1 div .but1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+#hero-section .container .box1 div .but2 {
+  background-color: white;
+  padding: 16px 36px 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(32, 72, 79, 0.1);
+}
+#hero-section .container .box1 div .but2 a {
+  color: #072125;
+  text-decoration: none;
+  font-size: 18px;
+}
+#hero-section .container .box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+}
+#hero-section .container .box2 img {
+  width: 600px;
+}
+
+#footer-section {
+  background-color: #072125;
+}
+#footer-section .container {
+  display: flex;
+}
+@media (width < 767px) {
+  #footer-section .container {
+    display: block;
+  }
+}
+#footer-section .container .divv {
+  padding-top: 70px;
+  width: 100%;
+}
+@media (width < 767px) {
+  #footer-section .container .divv {
+    display: flex;
+    justify-content: center;
+  }
+}
+#footer-section .container .divv .divvv h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+#footer-section .container .divv .divvv label {
+  color: white;
+}
+#footer-section .container .divv .divvv input[type=checkbox] {
+  accent-color: white;
+}
+#footer-section .container .divv .divvv #i2 {
+  margin-left: 68px;
+  margin-bottom: 20px;
+}
+#footer-section .container .divv .divvv #i4 {
+  margin-left: 30px;
+}
+#footer-section .container .divv .divvv .email {
+  margin-top: 30px;
+  display: flex;
+}
+#footer-section .container .divv .divvv .email .input {
+  background-color: white;
+}
+#footer-section .container .divv .divvv .email .input input {
+  padding: 10px 16px;
+  border: none;
+  width: 260px;
+}
+#footer-section .container .divv .divvv .email .button button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #b8e4da;
+}
+#footer-section .container .divv .divvv .email .button button a {
+  text-decoration: none;
+  color: #20484f;
+  font-size: 14px;
+}
+#footer-section .container .div {
+  width: 100%;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (width < 576px) {
+  #footer-section .container .div {
+    display: block;
+  }
+}
+@media (width < 767px) {
+  #footer-section .container .div .div1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+#footer-section .container .div .div1 ul h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+}
+#footer-section .container .div .div1 ul li {
+  padding-top: 15px;
+}
+@media (width < 767px) {
+  #footer-section .container .div .div1 ul li {
+    display: flex;
+    justify-content: center;
+  }
+}
+#footer-section .container .div .div1 ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 150%;
+  color: #dcf2ed;
+}
+#footer-section .hr {
+  width: 100%;
+  height: 0px;
+  opacity: 0.2;
+  border: 1px solid #dcf2ed;
+  margin-top: 30px;
+}
+#footer-section h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+#header {
+  width: 100%;
+  background-color: #20484f;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
+  .container {
+    .box {
+      height: 75px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h4 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      nav {
+        display: flex;
+
+        @media (width<767px) {
+          display: none;
+        }
+
+        li {
+          padding: 0 20px;
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+
+      i {
+        display: none;
+        @media (width<767px) {
+          display: block;
+          font-size: 40px ;
+        }
+      }
+
+      .button {
+        @media (width<767px) {
+          display: none;
+        }
+
+        
+        .but1 {
+          background-color: #b8e4da;
+          padding: 10px 16px;
+          border-radius: 8px;
+          a {
+            color: #20484f;
+            text-decoration: none;
+            font-size: 14px;
+          }
+        }
+        .but2 {
+          background-color: transparent;
+          padding: 10px 16px;
+          border-radius: 8px;
+          border: none;
+          a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
