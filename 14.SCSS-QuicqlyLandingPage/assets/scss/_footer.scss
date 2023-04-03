@@ -13,59 +13,60 @@
         justify-content: center;
       }
 
-.divvv {
- 
-
-
-      h3 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 40px;
-        color: #ffffff;
-        padding-bottom: 20px;
-      }
-
-      label {
-        color: white;
-      }
-      input[type="checkbox"] {
-        accent-color: white;
-      }
-
-      #i2 {
-        margin-left: 68px;
-        margin-bottom: 20px;
-      }
-      #i4 {
-        margin-left: 30px;
-      }
-
-      .email {
-        margin-top: 30px;
-        display: flex;
-        .input {
-          background-color: white;
-          input {
-            padding: 10px 16px;
-            border: none;
-            width: 260px;
-          }
+      .divvv {
+        h3 {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 40px;
+          color: #ffffff;
+          padding-bottom: 20px;
         }
-        .button {
-          button {
-            padding: 10px 16px;
-            border: none;
-            background-color: #b8e4da;
-            a {
-              text-decoration: none;
-              color: #20484f;
-              font-size: 14px;
+
+        label {
+          color: white;
+        }
+        input[type="checkbox"] {
+          accent-color: white;
+        }
+
+        #i2 {
+          margin-left: 68px;
+          margin-bottom: 20px;
+        }
+        #i4 {
+          margin-left: 30px;
+        }
+
+        .email {
+          margin-top: 30px;
+          display: flex;
+          .input {
+            input {
+              padding: 10px 16px;
+              border: none;
+              width: 260px;
+              background-color: white;
+              border-top-left-radius: 8px;
+              border-bottom-left-radius: 8px;
+            }
+          }
+          .button {
+            button {
+              padding: 10px 16px;
+              border: none;
+              background-color: #b8e4da;
+              border-top-right-radius: 8px;
+              border-bottom-right-radius: 8px;
+              a {
+                text-decoration: none;
+                color: #20484f;
+                font-size: 14px;
+              }
             }
           }
         }
       }
     }
-  }
 
     .div {
       width: 100%;
@@ -90,7 +91,7 @@
             color: white;
           }
           li {
-            padding-top: 15px;
+            padding-top: 5px;
             @media (width<767px) {
               display: flex;
               justify-content: center;

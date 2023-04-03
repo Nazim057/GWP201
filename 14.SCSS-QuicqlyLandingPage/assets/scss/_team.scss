@@ -16,10 +16,14 @@
     }
 
     .boxes {
+      text-align: center;
       .box {
+        &:hover {
+          opacity: 0.6;
+          cursor: pointer;
+        }
         img {
-          width: 250px;
-          height: 250px;
+          max-width: 220px;
           border-radius: 12px;
         }
 

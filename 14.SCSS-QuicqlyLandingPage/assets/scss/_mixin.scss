@@ -1,0 +1,45 @@
+// @mixin displey {
+//     display: felx;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+
+
+// // dəyişən
+// $reng: red;
+
+// color: $reng;
+// // dəyişən
+
+
+
+// // nəsə
+// .kutu {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .box {
+//     @extend .kutu ;
+// }
+// // nəsə
+
+
+
+// // mixin
+
+// @mixin ortala($display, $justify, $align) {
+//     display: felx;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .box {
+//     @include ortala ( flex, center, center )
+
+// }
+
+// // mixin
+
